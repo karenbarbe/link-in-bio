@@ -1,0 +1,42 @@
+html {
+  background-color: #ae899b;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f4f4f1;
+  border-radius: 1rem;
+  max-width: 30rem;
+  aspect-ratio: 16/9;
+  margin-inline: auto;
+}
+
+.h1 {
+  text-align: center;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  max-width: 10rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.links-container {
+  display: flex;
+  gap: 1rem;
+}
